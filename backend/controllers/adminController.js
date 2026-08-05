@@ -18,8 +18,7 @@ const addDoctor = async (req, res) => {
       fees,
       address,
     } = req.body;
-
-    const imageFile = req.imageFile;
+    const imageFile = req.file;
 
     // checking for all data to add doctor
 
